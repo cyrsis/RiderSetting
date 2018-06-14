@@ -17,7 +17,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="newChar" value="char[] $charArray$ = new char[] {'$a$','$b$','$c$'}" description="" toReformat="true" toShortenFQNames="true">
+  <template name="nc" value="char[] $charArray$ = new char[] {'$a$','$b$','$c$'}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="charArray" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="b" expression="" defaultValue="" alwaysStopAt="true" />
@@ -75,7 +75,7 @@
       <option name="XML" value="false" />
     </context>
   </template>
-  <template name="newMap" value="var $map$ = new Dictionary&lt;$string$, $string$&gt;()" description="var $map$ = new Dictionary&lt;$string$, $string$&gt;()" toReformat="true" toShortenFQNames="true">
+  <template name="nm" value="var $map$ = new Dictionary&lt;$string$, $string$&gt;()" description="var $map$ = new Dictionary&lt;$string$, $string$&gt;()" toReformat="true" toShortenFQNames="true">
     <variable name="map" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -166,6 +166,80 @@
   </template>
   <template name="pi" value="public int $variable$;" description="public int $variable$;" toReformat="true" toShortenFQNames="true">
     <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="nb" value="bool $myBool$ = true" description="bool $myBool$ = true" toReformat="true" toShortenFQNames="true">
+    <variable name="myBool" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="nByte" value="byte $myByte$ = $4$;" description="byte $myByte$ = $4$;" toReformat="true" toShortenFQNames="true">
+    <variable name="myByte" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="nsByte" value="sbyte $mySByte$ = 9;" description="sbyte $mySByte$ = 9;" toReformat="true" toShortenFQNames="true">
+    <variable name="mySByte" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ns" value="string $myString$ = &quot;$Hello$&quot;;" description="string $myString$ = &quot;$Hello$&quot;;" toReformat="true" toShortenFQNames="true">
+    <variable name="myString" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="Hello" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="CSS" value="false" />
       <option name="CUCUMBER_FEATURE_FILE" value="false" />
