@@ -75,4 +75,23 @@
       <option name="XML" value="false" />
     </context>
   </template>
+  <template name="newMap" value="var $map$ = new Dictionary&lt;$string$, $string$&gt;()" description="var $map$ = new Dictionary&lt;$string$, $string$&gt;()" toReformat="true" toShortenFQNames="true">
+    <variable name="map" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="JADE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
 </templateSet>
